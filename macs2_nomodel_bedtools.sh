@@ -29,7 +29,7 @@ done
 
 conda deactivate
 
-conda activate Nucleoatac
+conda activate bedtools
 
 echo "Removing blacklist"
  
