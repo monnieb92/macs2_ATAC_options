@@ -30,3 +30,20 @@ conda deactivate
 ```
 ### Blacklist peaks hg19
 required: https://www.encodeproject.org/annotations/ENCSR797MUY/
+
+# Genrich_ATAC_options
+
+### Install Genrich
+
+required: https://anaconda.org/bioconda/genrich
+
+```{bash}
+conda create -n Genrich
+
+conda activate Genrich
+
+conda install -c bioconda genrich
+
+conda deactivate 
+```
+
